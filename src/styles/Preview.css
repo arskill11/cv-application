@@ -1,0 +1,127 @@
+.cvGeneralPreview .general {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 2rem;
+}
+
+.general > *,
+.education > *,
+.practice .practiceElement > *,
+.skills > * {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+.general .firstName,
+.general .lastName {
+  font-size: 3.2rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  max-width: 60vw;
+  overflow-wrap: break-word;
+  line-break: auto;
+  line-height: 3.3rem;
+}
+
+.general .email {
+  font-size: 1rem;
+}
+
+.general .occupation {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  height: 2rem;
+  min-width: 8rem;
+  background-color: orange;
+  width: 35%;
+}
+
+.general .facts {
+  font-size: 1.3rem;
+  overflow-wrap: break-word;
+  line-break: auto;
+}
+
+.cvEducationPreview .education,
+.cvPracticePreview .practice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 0 2rem;
+}
+
+.cvEducationPreviewHeader,
+.cvPracticePreviewHeader,
+.cvSkillsPreviewHeader {
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.education .schoolName,
+.practice .companyName {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.education .titleOfStudy,
+.practice .position {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding-left: 1rem;
+}
+
+.education .duration,
+.practice .responsibilities {
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  line-height: 1.3rem;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  line-break: auto;
+}
+
+.practice .practiceList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+  align-items: flex-start;
+}
+
+.practice .practiceElement {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.cvSkillsPreview .skills {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.cvSkillsPreview .skills .skill {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 40px;
+}
+
+text
+
+
+
+

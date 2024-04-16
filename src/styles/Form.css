@@ -1,0 +1,125 @@
+.personalInfo form,
+.educationInfo form,
+.practiceInfo form,
+.skillsInfo form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.personalInfo,
+.educationInfo,
+.practiceInfo,
+.skillsInfo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: rgb(47, 47, 47);
+  gap: 1rem;
+}
+
+.personalInfo .personalInfoHeader,
+.educationInfo .educationInfoHeader,
+.practiceInfo .practiceInfoHeader,
+.skillsInfo .skillsInfoHeader {
+  align-self: flex-start;
+  padding-left: 10px; 
+  margin: 0;
+  color: white;
+}
+
+.personalInfo .name,
+.educationInfo form .interval {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.personalInfo form input,
+.educationInfo form input,
+.practiceInfo form input,
+.skillsInfo form input {
+  height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+  flex-shrink: 1;
+  overflow-x: hidden;
+  background-color: rgb(71, 71, 71);
+  box-shadow: none;
+  border: none;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(151, 151, 151);
+}
+
+.personalInfo form textarea,
+.practiceInfo form textarea {
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  border-radius: 10px;
+  border: none; 
+  background-color: rgb(71, 71, 71);
+  text-align: left;
+}
+
+.studyPeriod {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.studyPeriod h3 {
+  margin: 0;
+  color: white;
+}
+
+.educationInfo form .interval > input {
+  width: 100%;
+}
+
+
+.practices,
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.practices h3,
+.skills h3 {
+  margin: 0;
+  padding:0;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.practices .practiceIndex,
+.skills .skillIndex {
+  color: white;
+}
+
+.practices .formHeader,
+.skills .formHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.addMore,
+button.delete {
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+button.addMore {
+  width: 30%;
+}
+
